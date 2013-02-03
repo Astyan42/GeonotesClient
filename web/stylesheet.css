@@ -1,0 +1,50 @@
+*, html { margin:0; padding:0 }
+div#titre { width:40%; position:absolute; overflow:hidden; text-align:center; top:0;
+            left:30%;border:1px solid black;}
+div#map_canvas { width:100%; height:100%;}
+div#info { width:10%; height:33%; position:absolute;  text-align:left; top:45%;
+           left:0.2%;padding:0.5%;border:1px solid black; font-size:small}
+div#valider{ width:7%; height:4%; position:absolute; overflow:hidden; text-align:center; top:90%;
+             left:46%;padding:2px; }
+div#parcours { width:20%; height:70%; position:absolute; overflow:auto; text-align:center; top:12%;left:79.5%;border:1px solid black;}
+div#legende{ width:20%; height:12%; position:absolute; overflow:auto ; text-align:center; top:84.7%;
+             left:79.5%;padding:2px;border:1px solid black;font-size: small }
+.lightBox {
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    background-color:white;
+    /*                padding:2px;*/
+}
+.bouton {
+    font-size:20px;
+    border:1px solid white;
+    font-weight:bold;
+    background-color:#333333;
+    color:#aaaaaa;
+}
+.bouton p{                
+    margin-top:2%
+
+}
+.bouton:hover{
+    background-color:#aaaaaa;
+    color:#333333;
+    cursor:pointer ;
+}
+a {
+    text-decoration:none;
+    font-size:small;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+a:hover{
+    font-weight:bold;
+    font-size:small;
+}
+
+div#info>table{
+    height: 100%;
+}
+
+
